@@ -36,8 +36,7 @@ header h1{
 	padding: 10px;
 	color: black;
 	border: solid 1px;
-	background-image: url(/imagenes/imagen3.jpg);
-	/*background-image: url("/imagenes/imagen3.jpg");*/
+	background-image: url("/imagenes/imagen3.jpg");
 	border-radius: 6px;
 	background-repeat: no-repeat,repeat;
 	background-size: cover
@@ -61,6 +60,14 @@ footer {
 	color: #605B56;
 	border-radius: 4px;
 	margin: 3px;
+}
+
+@media screen and (max-width: 600px)
+{
+	menu-principal, #contenido{
+		width:100%;
+	}
+	
 }
 p{
 	display: inline ;
