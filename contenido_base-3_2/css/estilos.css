@@ -36,7 +36,8 @@ header h1{
 	padding: 10px;
 	color: black;
 	border: solid 1px;
-	background-image: url("/imagenes/imagen3.jpg");
+	background-image: url(/imagenes/imagen3.jpg);
+	/*background-image: url("/imagenes/imagen3.jpg");*/
 	border-radius: 6px;
 	background-repeat: no-repeat,repeat;
 	background-size: cover
